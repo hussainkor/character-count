@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Character Count</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div class="box">
+        <h2>Character Counts</h2>
+        <div class="character-box">
+            <div class="char-limit-box">
+                <h4>Limit Typing Character</h4>
+                <div class="input-box">
+                    <input class="input-limit" type="number" placeholder="Enter the number">
+                <button class="limit-btn">Submit</button>
+                </div>
+            </div>
+            <div class="box-content">
+                <div class="txt-indicator">
+                    <div class="count-number">
+                        Total Character: <span class="total-char">0</span>
+                        <span class="char-limit">/100</span>
+                    </div>
+                    <div class="word-count">No. of word: 0</div>
+                </div>
+                <textarea class="txt-input" placeholder="Enter the message" maxlength=""></textarea>
+                <div class="char-limit-alert">You have entered the maximum limit character</div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
